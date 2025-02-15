@@ -1,0 +1,12 @@
+Este conjunto de códigos permite la captura, transmisión y almacenamiento de datos de sensores utilizando LoRa y WiFi. Los códigos están programados en diferentes lenguajes: Mega_Serial, Lora_Transmisor y Lora_Receptor están escritos en C++ para plataformas Arduino, mientras que ESP8266_Wifi_Firebase también utiliza C++ para el entorno NodeMCU. Finalmente, el código Appscript está escrito en JavaScript y se ejecuta en Google Apps Script. Juntos, estos programas automatizan la recolección, procesamiento y análisis continuo de datos técnicos esenciales, facilitando la visualización y generación de reportes precisos.
+
+
+1- Mega_Serial: Código que controla y gestiona la lectura de múltiples sensores, procesa y organiza los datos obtenidos para transmitirlos a través de comunicación serial.
+
+2- Lora_Transmisor: El código gestiona un sistema de comunicación. Recibe datos de sensores a través de comunicación serial, procesa y organiza estos datos en un formato adecuado, y luego los transmite a través de una red LoRa. 
+
+3- Lora_Receptor: El código permite que un dispositivo basado en Arduino reciba datos a través de LoRa, procese estos datos y los transmita a otro dispositivo a través de un puerto serial.
+
+4- ESP8266_Wifi_Firebase: Código que se utiliza en un dispositivo NodeMCU, recibe datos de sensores a través de un módulo LoRa y publica estos en Firebase. La configuración inicial conecta el dispositivo a una red WiFi y se autentica con Firebase usando una API Key.
+
+5- Appscript: Código de Google Apps Script, se utiliza para importar los datos almacenados en la base de datos de Firebase y almacenarlos en una hoja de cálculo de Google Sheets. 
